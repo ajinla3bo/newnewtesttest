@@ -354,8 +354,7 @@ client.on("message", message => { //clear
        
 });
   
-  const {Client} = require("discord.js")
-const client = new Client();
+
 const Rain = require("rainbow-role")
 const rain = new Rain(options); //prefix, roleName, size, speed, logging
 rain.rainbow(client); 
